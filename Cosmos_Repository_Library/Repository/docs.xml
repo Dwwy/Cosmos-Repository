@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Repository</name>
+    </assembly>
+    <members>
+        <member name="M:Repository.IRepository`1.ReadMultipleByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.ReadMultipleByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.ReadOneByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.ReadOneByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.ReadItemStream(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.ReadItemStream(System.String,Microsoft.Azure.Cosmos.PartitionKey)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.ReadItemAsync(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.ReadItemAsync(System.String,Microsoft.Azure.Cosmos.PartitionKey)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.ReadByStreamQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.ReadByStreamQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.Create(`0)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.Create(`0)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.Delete(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.Delete(System.String,Microsoft.Azure.Cosmos.PartitionKey)&quot;]/*" />
+        </member>
+        <member name="M:Repository.IRepository`1.Update(`0)">
+            <!-- Failed to insert some or all of included XML --><include file="docs.xml" path="doc/members/member[@name=&quot;M:Repository.Repository`1.Update(`0)&quot;]/*" />
+        </member>
+        <member name="M:Repository.Repository`1.ReadMultipleByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <summary>
+            Query for multiple items from the container.
+            </summary>
+            <param name="query">A Query in String.</param>
+            <param name="options">QueryRequestOptions for the query process</param>
+            <returns>
+            Returns a list of items in Generic type.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.ReadOneByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <summary>
+            Query for one item from the container.
+            </summary>
+            <param name="query">A Query in String.</param>
+            <param name="options">QueryRequestOptions for the query process</param>
+            <returns>
+            Returns an item in Generic Type
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.ReadItemStream(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <summary>
+            Reads an item asynchronously in the form of point read.
+            </summary>
+            <param name="id">The ID of the item to be read from the container</param>
+            <param name="key">The Partition Key of the item that is to be read from the container</param>
+            <returns>
+            Returns content in String format.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.ReadItemAsync(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <summary>
+            Read item asynchronously in the form of point read.
+            </summary>
+            <param name="id">The ID of the item to be read from the container.</param>
+            <param name="key">The Partition Key of the item that is to be read from the container.</param>
+            <returns>
+            Returns item in Generic type.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.ReadByStreamQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <summary>
+            Reads single or multiple item from the container using query.
+            </summary>
+            <param name="query"></param>
+            <param name="options"></param>
+            <returns>
+            Returns content in String format
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.Create(`0)">
+            <summary>
+            Insert the item specified by the parameter into the container.
+            </summary>
+            <param name="item">Generic Type object</param>
+            <returns>
+            Returns a boolean indicating success or failure.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.Delete(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <summary>
+            Deletes an item with ID and Partition Key provided.
+            </summary>
+            <param name="id">The ID of the item to be read from the container.</param>
+            <param name="key">The Partition Key of the item that is to be read from the container.</param>
+            <returns>
+            Returns a boolean indicating success or failure.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository`1.Update(`0)">
+            <summary>
+            Updates an item.
+            </summary>
+            <remarks>
+            ID and Partition Key must be constant during update operation or else a new item will be created.
+            </remarks>
+            <param name="item">Generic item type.</param>
+            <returns>
+            Returns a boolean indicating success or failure.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.ReadMultipleByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <summary>
+            Query for multiple items from the container.
+            </summary>
+            <param name="query">A Query in String.</param>
+            <param name="options">QueryRequestOptions for the query process</param>
+            <returns>
+            Returns a list of items in Generic type.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.ReadOneByQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <summary>
+            Query for one item from the container.
+            </summary>
+            <param name="query">A Query in String.</param>
+            <param name="options">QueryRequestOptions for the query process</param>
+            <returns>
+            Returns an item in Generic Type
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.ReadItemStream(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <summary>
+            Reads an item asynchronously in the form of point read.
+            </summary>
+            <param name="id">The ID of the item to be read from the container</param>
+            <param name="key">The Partition Key of the item that is to be read from the container</param>
+            <returns>
+            Returns content in String format.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.ReadItemAsync(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <summary>
+            Read item asynchronously in the form of point read.
+            </summary>
+            <param name="id">The ID of the item to be read from the container.</param>
+            <param name="key">The Partition Key of the item that is to be read from the container.</param>
+            <returns>
+            Returns item in Generic type.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.ReadByStreamQuery(System.String,Microsoft.Azure.Cosmos.QueryRequestOptions)">
+            <summary>
+            Reads single or multiple item from the container using query.
+            </summary>
+            <param name="query"></param>
+            <param name="options"></param>
+            <returns>
+            Returns content in String format
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.Create(`0)">
+            <summary>
+            Insert the item specified by the parameter into the container.
+            </summary>
+            <param name="item">Generic Type object</param>
+            <returns>
+            Returns a boolean indicating success or failure.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.Delete(System.String,Microsoft.Azure.Cosmos.PartitionKey)">
+            <summary>
+            Deletes an item with ID and Partition Key provided.
+            </summary>
+            <param name="id">The ID of the item to be read from the container.</param>
+            <param name="key">The Partition Key of the item that is to be read from the container.</param>
+            <returns>
+            Returns a boolean indicating success or failure.
+            </returns>
+        </member>
+        <member name="M:Repository.Repository1`1.Update(`0)">
+            <summary>
+            Updates an item.
+            </summary>
+            <remarks>
+            ID and Partition Key must be constant during update operation or else a new item will be created.
+            </remarks>
+            <param name="item">Generic item type.</param>
+            <returns>
+            Returns a boolean indicating success or failure.
+            </returns>
+        </member>
+    </members>
+</doc>

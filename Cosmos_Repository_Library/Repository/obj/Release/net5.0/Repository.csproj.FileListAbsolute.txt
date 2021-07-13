@@ -1,0 +1,14 @@
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\bin\Release\net5.0\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\bin\Release\net5.0\Cosmos.CRTCompat.dll
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\bin\Release\net5.0\Repository.deps.json
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\bin\Release\net5.0\Repository.dll
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\bin\Release\net5.0\ref\Repository.dll
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\bin\Release\net5.0\Repository.pdb
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.csprojAssemblyReference.cache
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.AssemblyInfo.cs
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.dll
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\ref\Repository.dll
+C:\Users\ACER\source\repos\CosmosSampleAPI\Repository\obj\Release\net5.0\Repository.pdb

@@ -69,23 +69,22 @@ namespace WebApplication1
                     /*                    LimitToEndpoint = true
                     */
                 };
-                String connectionString = "AccountEndpoint=https://danielwong2.documents.azure.com:443/;AccountKey=zvwWycQB1dx4JkRFui7F6juRhGa2zXHHT0FrMQoyMcA2IGeybTw2UYwe4hbAnZzwqjnL37t00PfwlqQL56a8Yw==;";
-
+                String connectionString = "Connection String Here";
                 CosmosClient cosmosClient = new CosmosClient(connectionString, cosmosClientOptions);
                 return cosmosClient;
             });
             services.AddSingleton<Repository<Menu>>(f => {
                 CosmosClient client = f.GetService<CosmosClient>();
-                String databaseid = "Zeoniq";
-                String containerid = "Menu";
+                String databaseid = "Database";
+                String containerid = "Container1";
                 int DefaultRetryAttempts = 5;
                 return new Repository<Menu>(client, databaseid, containerid,DefaultRetryAttempts);
             });
             services.AddSingleton<Repository1<Menu>>(f =>
             {
                 CosmosClient client = f.GetService<CosmosClient>();
-                String databaseid = "Zeoniq";
-                String containerid = "Lease";
+                String databaseid = "Database";
+                String containerid = "Container1";
                 int DefaultRetryAttempts = 5;
                 return new Repository1<Menu>(client, databaseid, containerid,DefaultRetryAttempts);
             });

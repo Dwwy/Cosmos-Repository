@@ -13,10 +13,10 @@ namespace ChangeFeedAzure
     {
         [FunctionName("Function1")]
         public static void Run([CosmosDBTrigger(
-            databaseName: "Zeoniq",
-            collectionName: "Menu",
+            databaseName: "Database",
+            collectionName: "Container1",
             ConnectionStringSetting = "CosmosDB_Connection",
-            LeaseCollectionName = "Lease",
+            LeaseCollectionName = "Container2",
             StartFromBeginning = true,
             LeaseCollectionPrefix = "2")]IReadOnlyList<Document> input, ILogger log)
         {
